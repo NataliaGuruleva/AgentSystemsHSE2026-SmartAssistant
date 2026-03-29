@@ -16,4 +16,4 @@ CLI-ассистент "с характером" на базе LangChain + Pydan
 ## Запуск
 
 ```bash
-python smart_assistant.py --character friendly --memory buffer
+python smart_assistant.py --model llama3 --fallback-model llama3 # локально
